@@ -15,19 +15,14 @@ public class Main {
         // Creazione e popolamento della matrice
         int[][] matrix = new int[3][3];
         Random random = new Random();
-
-// COMPLETARE IL CODICE
+        // COMPLETARE IL CODICE
 
       
 
         // Stampa della matrice
         System.out.println("Matrice:");
-        for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix[i].length; j++) {
-                System.out.print(matrix[i][j] + " ");
-            }
-            System.out.println();
-        }
+        // COMPLETARE IL CODICE
+
 
         // Calcolo della somma degli elementi
         int sum = calculateSum(matrix);
